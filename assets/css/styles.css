@@ -1,0 +1,72 @@
+.text-size {
+  font-size: 12px;
+}
+
+.text-size-heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-size-heading-post {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.row-hide {
+  visibility: visible;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .row-hide {
+    visibility: visible;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-hide {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-hide {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+.row-hide2 {
+  visibility: hidden;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .row-hide2 {
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-hide2 {
+    visibility: visible;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-hide2 {
+    visibility: visible;
+    height: auto;
+  }
+}
+
+.clean-block.clean-post .post-body {
+  padding: 70px 50px;
+  font-size: .9em;
+  padding-top: 10px;
+}
+
